@@ -1,0 +1,42 @@
+
+
+#main {
+  float: center;
+  margin: 20;
+  }
+  
+  
+  #header{
+  text-align:center;
+  background: #FFFFFF;
+  float: center;
+  font-weight: bold;
+  }
+  
+  #left_col{
+  background: #c0c0c0;
+  float: left;
+  width: 20%;
+  height: 500px;
+  font-weight: bold;
+  }
+  
+  #right_col{
+  float: right;
+  width: 300px;
+  height: 500px;
+  font-weight: bold;
+  }
+  
+  #center{
+  width: 1000px;
+  }
+  
+  #footer{
+  float: center;
+  background: #CCCCCC;
+  }
+  
+  .clear{
+      clear:both;
+  }  
