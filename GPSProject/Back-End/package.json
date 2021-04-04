@@ -1,0 +1,21 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "\"tran thanh dang khoa\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "hehe",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.14",
+    "socket.io": "^2.1.1"
+  }
+}
