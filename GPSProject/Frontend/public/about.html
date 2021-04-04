@@ -1,0 +1,134 @@
+<link rel="shortcut icon" href="Pictures/Tech.ico" type="image/x-icon" />
+<link rel="icon" href="Pictures/Tech.ico" type="image/x-icon" />
+<!DOCTYPE html>
+<html>
+    <HEAD>
+        <TITLE> About Us </TITLE>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+/* About Us */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+/* Menu */
+*{ margin: 0px; padding: 0px;}
+li{ list-style: none;}
+a{ text-decoration: none; color: #FFF; font-size: 16px; }
+.clear{ clear: both;}
+.wrapper{ width: 960px; height: 500px; background: #F8F8F8; margin: 0 auto; }
+.main_menu{ 
+background: #000000;
+-webkit-box-shadow: 0 1px 2px rgba(2, 2, 2, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+-o-box-shadow: 0 1px 2px rgba(2, 2, 2, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+-moz-box-shadow: 0 1px 2px rgba(2, 2, 2, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+-ms-box-shadow: 0 1px 2px rgba(2, 2, 2, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+box-shadow: 0 1px 2px rgba(2, 2, 2, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+}
+.main_menu>ul>li{ float: left;padding: 11px 27px; position: relative; border-right: 1px solid #ACACAC; z-index: 2;}
+.main_menu>ul>li:last-child{ border-right: none; visibility: visible;}
+.main_menu>ul>li>ul{ text-decoration: none; text-align: left; display: none; position: absolute; background: #000000;top: 41px;width: 198px; left: 0px;}
+.main_menu>ul>li:hover ul{ display: block; visibility: visible;}
+.main_menu ul li:hover{ background: none; transition: all 0.25s} 
+.main_menu>ul>li>ul>li{ padding: 5px 10px;}
+.main_menu>ul>li>ul>li{ border-bottom: 1px dotted #ACACAC;}
+        </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">        
+    </head>
+    <BODY>
+            <div id = 'header'><img src = "../Pictures/Banner.jpg" height="120" width="100%">
+                <font face="Calibri">
+                  <div class="main_menu">
+                    <ul>
+                    <li><a class="active" href="index.html"><i class="fa fa-home"></i> HOME</a></li>
+                    <li><a class="active" href="about.html"><i class="fa fa-user-circle"></i> ABOUT US</a></li>
+                    <li><a class="active" href="contact.html"><i class="fa fa-fw fa-phone"></i> CONTACT</a></li>
+                    <div class="clear"></div>
+                  </div> 
+                </font>
+                   </div>    
+<br>
+<font face="Calibri">
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="../Pictures/Khang.jpg" alt="Jane" style="width:75%" >
+      <div class="container">
+        <h2>Nguyễn Minh Khang</h2>
+        <p class="title">LORA-gateway Developer</p>
+        <p>Thực tập sinh ở HTV</p>
+        <p>nguyenminhkhang21196@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="../Pictures/Thang.jpg" alt="John" style="width:100%" >
+      <div class="container">
+        <h2>Nguyễn Sơn Thăng</h2>
+        <p class="title">Front-end Developer</p>
+        <p>Thực tập sinh ở Bosch</p>
+        <p>nsthang456@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+</font>
+
+</body>
+</html>
